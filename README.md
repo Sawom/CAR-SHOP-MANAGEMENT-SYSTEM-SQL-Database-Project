@@ -12,11 +12,11 @@ purchase, stock, car_details. We have implemented indexing on each tables of Car
 
 <br>
 Here total eight tables which are , <br>
-car_details <br>
-brand_ambassador <br>
-customer <br>
-employee <br>
-payment_bill <br>
-Purchase <br>
-stock  <br>
-upcoming_cars <br>
+1) car_details <br>
+2) brand_ambassador <br>
+3) customer <br>
+4) employee <br>
+5) payment_bill <br>
+6) Purchase <br>
+7) stock  <br>
+8) upcoming_cars <br>
