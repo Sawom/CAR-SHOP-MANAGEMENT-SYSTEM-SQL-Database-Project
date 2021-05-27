@@ -48,7 +48,7 @@ WHERE `price_taka` between 3600000 and 4500000 <br>
 <b> Query 3 : Find purchase car brand , car model , car price , purchase date from payment bill and purchase table.  </b> 
 <br> <br>
 <strong>
-SELECT `purchase_car_brand`,`car_model`,`car_price`,'purchase_date' <br>
+SELECT `purchase_car_brand`,`car_model`,`car_price`, 'purchase_date' <br>
 FROM `payment_bill` JOIN purchase <br>
 ON payment_bill.customer_id = purchase.customer_id <br>
 </strong>
@@ -56,6 +56,16 @@ ON payment_bill.customer_id = purchase.customer_id <br>
 ![q3](https://user-images.githubusercontent.com/64780532/119841159-655aa080-bf27-11eb-9407-26f5787d720d.png)
 <br>
 
+<b> Query 4 : Find upcomming car brand , car model , car type , number of seat , top speed and price from Audi , Aston Martin , BMW and Abarth brand  </b>
+<br> <br>
+<strong>
+SELECT `brand`,`car_model`,`car_type`,`number_of_seat`,`top_speed`,`price_taka`  <br>
+FROM `upcoming_cars`  <br>
+WHERE brand = 'Audi' or brand = 'Aston Martin' or brand = 'BMW ' or brand = 'Abarth '   <br>
+</strong>
+ <br>
+  ![q4](https://user-images.githubusercontent.com/64780532/119842245-54f6f580-bf28-11eb-81ba-97f5457e0764.png)
+ <br>
 
 
 
