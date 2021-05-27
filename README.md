@@ -30,3 +30,5 @@ SELECT `emp_name`,`emp_posting_branch`,`emp_responsibility`,`emp_salary` <br>
 FROM `employee` <br>
 WHERE `emp_salary` > (select AVG(`emp_salary`) FROM employee ) <br>
 </strong>
+<br>
+![q1](https://user-images.githubusercontent.com/64780532/119839651-237d2a80-bf26-11eb-8e53-355d5b9e1a40.png)
