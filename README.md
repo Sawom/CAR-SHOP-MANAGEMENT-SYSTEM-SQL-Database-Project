@@ -11,12 +11,12 @@ purchase, stock, car_details. We have implemented indexing on each tables of Car
 ![overAll](https://user-images.githubusercontent.com/64780532/119836894-ec0d7e80-bf23-11eb-8ca1-9b22c882069f.png)
 
 <br>
-Here total eight tables which are ,
-car_details
-brand_ambassador
-customer
-employee
-payment_bill
-Purchase
-stock 
-upcoming_cars
+Here total eight tables which are , <br>
+car_details <br>
+brand_ambassador <br>
+customer <br>
+employee <br>
+payment_bill <br>
+Purchase <br>
+stock  <br>
+upcoming_cars <br>
