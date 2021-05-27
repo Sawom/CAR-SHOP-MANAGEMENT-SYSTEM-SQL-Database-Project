@@ -21,11 +21,12 @@ Here total eight tables which are , <br>
 7) stock  <br>
 8) upcoming_cars <br>
 <br>
-## Demonstration
-<b> Query 1 : Find employee name , posting branch , responsibility and salary whose alary are greater than the average salary. </b> <br>
 
+## Demonstration
+<b> Query 1 : Find employee name , posting branch , responsibility and salary whose alary are greater than the average salary. </b>
+<br>
 <strong>
-SELECT `emp_name`,`emp_posting_branch`,`emp_responsibility`,`emp_salary`
-FROM `employee` 
-WHERE `emp_salary` > (select AVG(`emp_salary`) FROM employee )
+SELECT `emp_name`,`emp_posting_branch`,`emp_responsibility`,`emp_salary` <br>
+FROM `employee` <br>
+WHERE `emp_salary` > (select AVG(`emp_salary`) FROM employee ) <br>
 </strong>
