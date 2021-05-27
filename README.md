@@ -7,7 +7,7 @@ car_details , customer, employee, payment_bill , purchase, stock, upcoming_cars.
 Each table contains primary key and unique keys. There is one to one and one to many relations available between customer, paymentBill ,
 purchase, stock, car_details. We have implemented indexing on each tables of Car Shop Management System tables for fast query execution.
 <br> <br>
-## Overall my project 
+## Overall my database project 
 ![overAll](https://user-images.githubusercontent.com/64780532/119836894-ec0d7e80-bf23-11eb-8ca1-9b22c882069f.png)
 
 <br>
@@ -20,3 +20,12 @@ Here total eight tables which are , <br>
 6) Purchase <br>
 7) stock  <br>
 8) upcoming_cars <br>
+<br>
+##Demonstration
+<b> Query 1 : Find employee name , posting branch , responsibility and salary whose alary are greater than the average salary. </b>
+
+<strong>
+SELECT `emp_name`,`emp_posting_branch`,`emp_responsibility`,`emp_salary`
+FROM `employee` 
+WHERE `emp_salary` > (select AVG(`emp_salary`) FROM employee )
+</strong>
