@@ -48,7 +48,7 @@ WHERE `price_taka` between 3600000 and 4500000 <br>
 <b> Query 3 : Find purchase car brand , car model , car price , purchase date from payment bill and purchase table.  </b> 
 <br> <br>
 <strong>
-SELECT `purchase_car_brand`,`car_model`,`car_price`, 'purchase_date' <br>
+SELECT `purchase_car_brand`,`car_model`,`car_price`,'purchase_date' <br>
 FROM `payment_bill` JOIN purchase <br>
 ON payment_bill.customer_id = purchase.customer_id <br>
 </strong>
