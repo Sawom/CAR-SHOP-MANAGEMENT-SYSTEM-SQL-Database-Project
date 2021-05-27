@@ -32,7 +32,7 @@ WHERE `emp_salary` > (select AVG(`emp_salary`) FROM employee ) <br>
 </strong>
 <br>
 ![q1](https://user-images.githubusercontent.com/64780532/119839651-237d2a80-bf26-11eb-8e53-355d5b9e1a40.png)
-<br>
+<br> <br>
 
 <b> Query 2 : Find car brand , car model , car type , top speed and price which are between 36 lakhs to 45 lakhs  </b>
 <br> <br>
